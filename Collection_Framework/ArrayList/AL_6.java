@@ -1,7 +1,7 @@
 package Collection_Framework.ArrayList;
 
 import java.util.ArrayList;
-import java.util.Collections;
+//import java.util.Collections;
 
 public class AL_6 {
 
