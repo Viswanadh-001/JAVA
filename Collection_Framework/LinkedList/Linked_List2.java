@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class Linked_List2 {
 	
 	public static void main(String[] args) {
-		LinkedList<String> emp = new LinkedList<>();
+		LinkedList<String> emp = new LinkedList<String>();
 		emp.add("Sai");
 		emp.add("Viswanadh");
 		emp.add("Charan");
