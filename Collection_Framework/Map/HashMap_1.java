@@ -16,5 +16,4 @@ public class HashMap_1 {
 		System.out.println(ids);
 		System.out.println(emp);
 	}
-
 }
