@@ -17,7 +17,7 @@ public class Linked_List2 {
 		
 		System.out.println(" ");	
 
-		System.out.println("Using for Loop :");	
+		System.out.println("Using for Loop : ");	
 		
 		for(int i=0;i<=emp.size()-1;i++) {
 			System.out.println(emp.get(i));
@@ -32,7 +32,7 @@ public class Linked_List2 {
 		}
 		System.out.println(" ");	
 		
-		System.out.println("Using Iterator :");
+		System.out.println("Using Iterator : ");
 		
 		Iterator<String> itr = emp.iterator();
 		while(itr.hasNext()) {
