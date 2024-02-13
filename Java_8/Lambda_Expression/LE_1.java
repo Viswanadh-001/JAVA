@@ -12,7 +12,7 @@
 //		obj.m1();
 //	 }
 //}
-//
+
 package Java_8.Lambda_Expression;
 
 interface LE_1 {
