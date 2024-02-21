@@ -12,5 +12,4 @@ class Sq implements I{
 		I i = new Sq();
 		i.sqrt(10);
 	}
-	
 }
