@@ -1,4 +1,4 @@
-package Pattrens;
+package Patterns;
 
 public class Right_triangle {
 
