@@ -20,23 +20,28 @@ public class PasswordChecker {
 	}
 
 	private static boolean isPasswordValid(String password) {
-		if(password.length()<6) {
-			return false;
-		}
-		
-		if(!password.matches(".*\\d.*")) {
-			return false;
-		}
-		if(!password.matches(".*[a-z].*")) {
-			return false;
-		}
-		if(!password.matches(".*[A-Z].*")) {
-			return false;
-		}
-		if(!password.matches(".*[!@#$%^&*()-+].*")) {
-			return false;
-		}
-		return true;	
+//		if(password.length()<6) {
+//			return false;
+//		}
+//		
+//		if(!password.matches(".*\\d.*")) {
+//			return false;
+//		}
+//		if(!password.matches(".*[a-z].*")) {
+//			return false;
+//		}
+//		if(!password.matches(".*[A-Z].*")) {
+//			return false;
+//		}
+//		if(!password.matches(".*[!@#$%^&*()-+].*")) {
+//			return false;
+//		}
+//		return true;	
+		return password.length() >= 6 &&
+                password.matches(".*\\d.*") &&
+                password.matches(".*[a-z].*") &&
+                password.matches(".*[A-Z].*") &&
+                password.matches(".*[!@#$%^&*()-+].*");
 	}
 
 }

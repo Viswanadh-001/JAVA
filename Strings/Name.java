@@ -19,7 +19,6 @@ public class Name {
 
 	        System.out.println("The count of 'sai' occurrences is: " + count);
 
-	        // Close the scanner to avoid resource leak
 	        scanner.close();
 	    }
 	}
