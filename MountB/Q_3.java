@@ -2,7 +2,7 @@ package MountB;
 
 import java.util.ArrayList;
 
-public class Q_3 {// Breaking the records 
+public class Q_3 { // Breaking the records 
 
 	public static void main(String[] args) {
 		int n = 10;
